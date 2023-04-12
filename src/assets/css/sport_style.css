@@ -496,7 +496,7 @@ margin-left: -1rem;
 }
 
 .hcResultListDetail h2 a {
-color: #666677 !important;
+color: #444444 !important;
 font-size: smaller;
 }
 
@@ -507,4 +507,23 @@ margin-bottom: 2px !important;
 
 li em{
 color: #777;
+}
+
+.detailItemTable{
+display: table;
+margin-bottom: 30px;
+}
+
+.detailItemRow{
+display: table-row;
+}
+
+.detailItemLabel, .detailItemValue{
+display: table-cell;
+}
+
+.detailItemLabel{
+font-weight: bold;
+color:#333333;
+width: 220px;
 }

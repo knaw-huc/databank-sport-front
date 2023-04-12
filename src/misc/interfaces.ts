@@ -26,10 +26,9 @@ export interface ISport {
 }
 
 export interface IDetail {
-    naam: string,
-    plaats: string,
-    levensbeschouwing: string
-
+    field: string,
+    value: string,
+    label: string;
 }
 
 

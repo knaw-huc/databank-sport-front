@@ -10,12 +10,25 @@ import {Header} from "./components/pageHeader";
 import {Literatuur} from "./components/literatuur";
 import {Colofon} from "./components/colofon";
 import {rootPage} from "./components/rootPage";
+import {Gymnastiek} from "./components/sport/gymnastiek";
+import {Hockey} from "./components/sport/hockey";
+import {Korfbal} from "./components/sport/korfbal";
+import {Schaken} from "./components/sport/schaken";
+import {Tennis} from "./components/sport/tennis";
+import {Voetbal} from "./components/sport/voetbal";
+
 const header = <Header/>
 
 function App() {
     const routes: RouteObject[] = [
         { path: '/literatuur', element: <Literatuur/> },
-        { path: '/colofon', element: <Colofon/> }
+        { path: '/colofon', element: <Colofon/> },
+        { path: '/gymnastiek', element: <Gymnastiek/>},
+        { path: '/hockey', element: <Hockey/>},
+        { path: '/korfbal', element: <Korfbal/>},
+        { path: '/schaken', element: <Schaken/>},
+        { path: '/tennis', element: <Tennis/>},
+        { path: '/voetbal', element: <Voetbal/>}
     ]
   return (
    <div>

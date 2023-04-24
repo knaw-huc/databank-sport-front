@@ -27,7 +27,7 @@ export function Header() {
                     <div className="navi">
                         <div><Link to="/">Inleiding</Link></div>
                         <div><Link to={searchLink}>Zoeken</Link></div>
-                        <div>Sporten</div>
+                        <div><Link to="/gymnastiek">Sporten</Link></div>
                         <div><Link to='/literatuur'>Literatuur</Link></div>
                         <div><Link to='/colofon'>Colofon</Link></div>
                         <div><Link to='mailto:resources@huygens.knaw.nl'>Contact</Link></div>

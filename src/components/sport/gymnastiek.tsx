@@ -1,5 +1,6 @@
 import React from "react";
 import {SportMenu} from "./sportMenu";
+import {HashLink as Link} from 'react-router-hash-link';
 
 export function Gymnastiek() {
 
@@ -18,14 +19,14 @@ export function Gymnastiek() {
                         <h2>Gymnastiek</h2>
                         <div>
                             <div>
-                                <p>De neutrale
-                                    gymnastiekorganisatie</p>
-                                <p>De christelijke
-                                    gymnastiekorganisatie</p>
-                                <p>De katholieke
-                                    gymnastiekorganisatie</p>
+                                <div><Link to="#neut">De neutrale
+                                    gymnastiekorganisatie</Link></div>
+                                <div><Link to="#chris">De christelijke
+                                    gymnastiekorganisatie</Link></div>
+                                <div><Link to="#kath">De katholieke
+                                    gymnastiekorganisatie</Link></div>
 
-                                <h4 className="neutraal">De neutrale gymnastiekorganisatie</h4>
+                                <h4 id="neut" className="neutraal">De neutrale gymnastiekorganisatie</h4>
 
                                 <p>Gymnastiek werd in de eerste helft van de negentiende eeuw in Nederland
                                     ge&#239;ntroduceerd.<a><sup>1</sup></a> In 1816 en in
@@ -184,7 +185,7 @@ export function Gymnastiek() {
                                 </p>
 
 
-                                <h4>De christelijke gymnastiekorganisatie</h4>
+                                <h4 id="chris">De christelijke gymnastiekorganisatie</h4>
 
                                 <p>In 1857 werd het Nederlandsch Jongelings Verbond (N.J.V.) opgericht, waaruit later de
                                     eerste (mannen)-gymnastiekverenigingen voortkwamen.<a><sup>22</sup></a> In
@@ -273,7 +274,7 @@ export function Gymnastiek() {
                                 </p>
 
 
-                                <h4>De katholieke gymnastiekorganisatie</h4>
+                                <h4 id="kath">De katholieke gymnastiekorganisatie</h4>
 
                                 <p>In de negentiende eeuw werden in Limburg diverse gymnastiekverenigingen opgericht,
                                     maar het is niet duidelijk of zij van begin af aan van op katholieke grondslag
@@ -347,202 +348,204 @@ export function Gymnastiek() {
 
                         <hr className="dividerline"/>
                         <h4>Noten:</h4>
+                        <div className="notenLijst">
                         <div>
-                            <span>1</span>) <span>Voor een uitgebreid overzicht van de opkomst van de gymnastiek in
+                            1) Voor een uitgebreid overzicht van de opkomst van de gymnastiek in
                                 Nederland tot 1940: Kramer en Lommen, <em>Geschiedenis lichamelijke opvoeding</em>, p.
                                 12-107. De oprichting en de ontwikkeling van de gymnastiekbonden worden hier nauwelijks
-                                behandeld.</span>
+                                behandeld.
                         </div>
                         <div>
-                            <span>2</span>) <span>Kramer en Lommen, <em>Geschiedenis lichamelijke opvoeding</em>, p.
-                                20.</span>
+                            2) Kramer en Lommen, <em>Geschiedenis lichamelijke opvoeding</em>, p.
+                                20.
                         </div>
                         <div>
-                            <span>3</span>) <span>R.G. Rijkens, <em>Praktische handleiding voor kunstmatige
+                            3) R.G. Rijkens, <em>Praktische handleiding voor kunstmatige
                                     ligchaams-oefeningen</em> (etc.) (Groningen 1843). Kramer en Lommen, o.c., p. 21-22
-                                en 39-40.</span>
+                                en 39-40.
                         </div>
                         <div>
-                            <span>4</span>) <span>Kramer en Lommen, <em>Geschiedenis lichamelijke opvoeding</em>, p.
-                                22-25.</span>
+                            4) Kramer en Lommen, <em>Geschiedenis lichamelijke opvoeding</em>, p.
+                                22-25.
                         </div>
                         <div>
-                            <span>5</span>) <span>Kramer en Lommen, <em>Geschiedenis lichamelijke opvoeding</em>, p.
-                                25.</span>
+                            5) Kramer en Lommen, <em>Geschiedenis lichamelijke opvoeding</em>, p.
+                                25.
                         </div>
                         <div>
-                            <span>6</span>) <span>Kramer en Lommen, <em>Geschiedenis lichamelijke opvoeding</em>, p. 20
-                                en 244 (noot 12).</span>
+                            6) Kramer en Lommen, <em>Geschiedenis lichamelijke opvoeding</em>, p. 20
+                                en 244 (noot 12).
                         </div>
                         <div>
-                            <span>7</span>) <span>Heijnen, <em>Beknopt historisch overzicht</em>, p. 1 met achterin
+                            7) Heijnen, <em>Beknopt historisch overzicht</em>, p. 1 met achterin
                                 lijst van toegetreden gymnastiekverenigingen tussen 1868 en 1918. Deze lijst is verwerkt
                                 in de databank als Heijnen, Overzicht 1868-1917. Staal, <em>Een leeuw van honderd</em>,
-                                p. 12.</span>
+                                p. 12.
                         </div>
                         <div>
-                            <span>8</span>) <span>Heijnen, <em>Beknopt historisch overzicht</em>, p. 12 en 19.</span>
+                            8) Heijnen, <em>Beknopt historisch overzicht</em>, p. 12 en 19.
                         </div>
                         <div>
-                            <span>9</span>) <span>Heijnen, <em>Beknopt historisch overzicht</em>, p. 34.</span>
+                            9) Heijnen, <em>Beknopt historisch overzicht</em>, p. 34.
                         </div>
                         <div>
-                            <span>10</span>) <span>Heijen, <em>Beknopt historisch overzicht</em>, p. 77-101. Bakker,
-                                <em>Het Koninklijk Nederlandsch Gymnastiek Verbond</em>, p. 32.</span>
+                            10) Heijen, <em>Beknopt historisch overzicht</em>, p. 77-101. Bakker,
+                                <em>Het Koninklijk Nederlandsch Gymnastiek Verbond</em>, p. 32.
                         </div>
                         <div>
-                            <span>11</span>) <span>Huishoudelijk reglement, art. 1 in <em>Het Turnblad </em>20 jan.
-                                1927, p. 852.</span>
+                            11) Huishoudelijk reglement, art. 1 in <em>Het Turnblad </em>20 jan.
+                                1927, p. 852.
                         </div>
                         <div>
-                            <span>12</span>) <span>Huishoudelijk reglement, art. 2 in <em>Het Turnblad </em>20 jan.
-                                1927, p. 852.</span>
+                            12) Huishoudelijk reglement, art. 2 in <em>Het Turnblad </em>20 jan.
+                                1927, p. 852.
                         </div>
                         <div>
-                            <span>13</span>) <span>Heijnen, <em>Beknopt historisch overzicht</em>, p. 32-33.</span>
+                            13) Heijnen, <em>Beknopt historisch overzicht</em>, p. 32-33.
                         </div>
                         <div>
-                            <span>14</span>) <span>Heijnen, <em>Beknopt historisch overzicht</em>, p. 44-45.</span>
+                            14) Heijnen, <em>Beknopt historisch overzicht</em>, p. 44-45.
                         </div>
                         <div>
-                            <span>15</span>) <span>Heijnen, <em>Beknopt historisch overzicht</em>, p. 52, 54 en
-                                72-73.</span>
+                            15) Heijnen, <em>Beknopt historisch overzicht</em>, p. 52, 54 en
+                                72-73.
                         </div>
                         <div>
-                            <span>16</span>) <span>Bakker, <em>Het Koninklijk Nederlandsch Gymnastiek Verbond</em>, p.
-                                31-37.</span>
+                            16) Bakker, <em>Het Koninklijk Nederlandsch Gymnastiek Verbond</em>, p.
+                                31-37.
                         </div>
                         <div>
-                            <span>17</span>) <span>Bondsverordening III Regelende de inrichting en de taak der
+                            17) Bondsverordening III Regelende de inrichting en de taak der
                                 Turnkringen, arts. 1-10 in <em>Het Turnblad </em>3 feb. 1927, p. 868-869. Zie ook Idem
                                 17 feb. 1927, p. 881. Bakker, <em>Het Koninklijk Nederlandsch Gymnastiek Verbond</em>,
-                                p. 35.</span>
+                                p. 35.
                         </div>
                         <div>
-                            <span>18</span>) <span><em>De Turnvriend, tijdschrift gewijd aan de lichamelijke opvoeding
+                            18) <em>De Turnvriend, tijdschrift gewijd aan de lichamelijke opvoeding
                                     des volks </em>(BANS 6690). Heijnen, <em>Beknopt historisch overzicht</em>, p.
-                                15.</span>
+                                15.
                         </div>
                         <div>
-                            <span>19</span>) <span><em>Maandberichten van het Nederlandsch Gymnastiek Verbond </em>(BANS
-                                6678). Heijnen, <em>Beknopt historisch overzicht</em>, p. 22.</span>
+                            19) <em>Maandberichten van het Nederlandsch Gymnastiek Verbond </em>(BANS
+                                6678). Heijnen, <em>Beknopt historisch overzicht</em>, p. 22.
                         </div>
                         <div>
-                            <span>20</span>) <span><em>Het Tijdschrift van het Nederlandsch Gymnastiek Verbond
-                                </em>(BANS 6691).</span>
+                            20) <em>Het Tijdschrift van het Nederlandsch Gymnastiek Verbond
+                                </em>(BANS 6691).
                         </div>
                         <div>
-                            <span>21</span>) <span><em>Het Turnblad </em>(BANS 6687 en 6688).</span>
+                            21) <em>Het Turnblad </em>(BANS 6687 en 6688).
                         </div>
                         <div>
-                            <span>22</span>) <span><em>KNCGV 75</em>, p. 4.</span>
+                            22) <em>KNCGV 75</em>, p. 4.
                         </div>
                         <div>
-                            <span>23</span>) <span><em>Een kwart eeuw Christelijke Lichamelijke Opvoeding</em>, p.
-                                13.</span>
+                            23) <em>Een kwart eeuw Christelijke Lichamelijke Opvoeding</em>, p.
+                                13.
                         </div>
                         <div>
-                            <span>24</span>) <span><em>Een kwart eeuw Christelijke Lichamelijke Opvoeding</em>, p. 13,
+                            24) <em>Een kwart eeuw Christelijke Lichamelijke Opvoeding</em>, p. 13,
                                 14 en 17-18. Voor een beknopt overzicht over 1910-1915, zie <em>Lichaamsoefening </em>1
-                                apr. 1925, p. 4-6.</span>
+                                apr. 1925, p. 4-6.
                         </div>
                         <div>
-                            <span>25</span>) <span><em>Een kwart eeuw Christelijke Lichamelijke Opvoeding</em>, p.
-                                18.</span>
+                            25) <em>Een kwart eeuw Christelijke Lichamelijke Opvoeding</em>, p.
+                                18.
                         </div>
                         <div>
-                            <span>26</span>) <span><em></em><em>Een kwart eeuw Christelijke Lichamelijke Opvoeding</em>,
+                            26) <em></em><em>Een kwart eeuw Christelijke Lichamelijke Opvoeding</em>,
                                 p. 13, 14 en 17-18. Voor een beknopt overzicht over 1910-1915, zie <em>Lichaamsoefening
-                                </em>1 apr. 1925, p. 4-6.</span>
+                                </em>1 apr. 1925, p. 4-6.
                         </div>
                         <div>
-                            <span>27</span>) <span><em>Lichaamsoefening </em>1 apr. 1925, p. 6.</span>
+                            27) <em>Lichaamsoefening </em>1 apr. 1925, p. 6.
                         </div>
                         <div>
-                            <span>28</span>) <span><em>Lichaamsoefening</em> 3 mrt. 1926, p. 2.</span>
+                            28) <em>Lichaamsoefening</em> 3 mrt. 1926, p. 2.
                         </div>
                         <div>
-                            <span>29</span>) <span><em>Een kwart eeuw Christelijke Lichamelijke Opvoeding</em>, p. 37 en
-                                43-44.</span>
+                            29) <em>Een kwart eeuw Christelijke Lichamelijke Opvoeding</em>, p. 37 en
+                                43-44.
                         </div>
                         <div>
-                            <span>30</span>) <span><em>Een kwart eeuw Christelijke Lichamelijke Opvoeding</em>, p.
-                                45-47.</span>
+                            30) <em>Een kwart eeuw Christelijke Lichamelijke Opvoeding</em>, p.
+                                45-47.
                         </div>
                         <div>
-                            <span>31</span>) <span><em>Lichaamsoefening </em>1 apr. 1925, p. 5.</span>
+                            31) <em>Lichaamsoefening </em>1 apr. 1925, p. 5.
                         </div>
                         <div>
-                            <span>32</span>) <span><em>Een kwart eeuw Christelijke Lichamelijke Opvoeding</em>, p.
-                                48-50.</span>
+                            32) <em>Een kwart eeuw Christelijke Lichamelijke Opvoeding</em>, p.
+                                48-50.
                         </div>
                         <div>
-                            <span>33</span>) <span><em>Lichaamsoefening </em>1 apr. 1925, p. 6.</span>
+                            33) <em>Lichaamsoefening </em>1 apr. 1925, p. 6.
                         </div>
                         <div>
-                            <span>34</span>) <span><em>Een kwart eeuw Christelijke Lichamelijke Opvoeding</em>, p.
-                                43-44, 46-47 en 49-50.</span>
+                            34) <em>Een kwart eeuw Christelijke Lichamelijke Opvoeding</em>, p.
+                                43-44, 46-47 en 49-50.
                         </div>
                         <div>
-                            <span>35</span>) <span><em>Lichaamsoefening </em>19 mrt. 1931, p. 161-162.</span>
+                            35) <em>Lichaamsoefening </em>19 mrt. 1931, p. 161-162.
                         </div>
                         <div>
-                            <span>36</span>) <span><em>Christelijk sportblad voor Nederland, gewijd aan de belangen der
-                                    lichamelijke oefening </em>(BANS 6663).</span>
+                            36) <em>Christelijk sportblad voor Nederland, gewijd aan de belangen der
+                                    lichamelijke oefening </em>(BANS 6663).
                         </div>
                         <div>
-                            <span>37</span>) <span><em>Lichaamsoefening </em>(BANS 6676).</span>
+                            37) <em>Lichaamsoefening </em>(BANS 6676).
                         </div>
                         <div>
-                            <span>38</span>) <span><em>Het Christelijk Turnblad </em>(BANS 6664). <em>Een kwart eeuw
-                                    Christelijke Lichamelijke Opvoeding</em>, p. 22-24. <em>KNGV 75</em>, p. 8.</span>
+                            38) <em>Het Christelijk Turnblad </em>(BANS 6664). <em>Een kwart eeuw
+                                    Christelijke Lichamelijke Opvoeding</em>, p. 22-24. <em>KNGV 75</em>, p. 8.
                         </div>
                         <div>
-                            <span>39</span>) <span>Hier is gekozen voor de naam R.K. Turnbond in het bisdom Roermond,
+                            39) Hier is gekozen voor de naam R.K. Turnbond in het bisdom Roermond,
                                 kortweg R.K. Turnbond Roermond. Andere benamingen als de R.K. Gymnastiek- en
                                 Athletiekbond in het bisdom Roermond en de L.K.G.B. (Limburgsche Katholieke Gymnastiek
                                 Bond komen ook wel voor in de literatuur; <em>Gedenkboek 50-jarig jubileum
-                                    L.K.G.B.</em>, p. 19-21.</span>
+                                    L.K.G.B.</em>, p. 19-21.
                         </div>
                         <div>
-                            <span>40</span>) <span><em>Gedenkboek 50-jarig jubileum L.K.G.B.</em>, p. 21, 23-24, 28-31.
-                                Derks en Budel, <em>Sportief en katholiek</em>, p. 35-36.</span>
+                            40) <em>Gedenkboek 50-jarig jubileum L.K.G.B.</em>, p. 21, 23-24, 28-31.
+                                Derks en Budel, <em>Sportief en katholiek</em>, p. 35-36.
                         </div>
                         <div>
-                            <span>41</span>) <span><em>Gedenkboek 50-jarig jubileum L.K.G.B.</em>, p. 33-34.</span>
+                            41) <em>Gedenkboek 50-jarig jubileum L.K.G.B.</em>, p. 33-34.
                         </div>
                         <div>
-                            <span>42</span>) <span><em>Gedenkboek 50-jarig jubileum L.K.G.B.</em>, p. 39. <em>Gedenkboek
-                                    N.K.G.B. 1921-1961</em>, p. 11.</span>
+                            42) <em>Gedenkboek 50-jarig jubileum L.K.G.B.</em>, p. 39. <em>Gedenkboek
+                                    N.K.G.B. 1921-1961</em>, p. 11.
                         </div>
                         <div>
-                            <span>43</span>) <span><em>Gedenkboek N.K.G.B. 1921-1961</em>, p. 12.</span>
+                            43) <em>Gedenkboek N.K.G.B. 1921-1961</em>, p. 12.
                         </div>
                         <div>
-                            <span>44</span>) <span><em>Gedenkboek N.K.G.B. 1921-1961</em>, p. 12.</span>
+                            44) <em>Gedenkboek N.K.G.B. 1921-1961</em>, p. 12.
                         </div>
                         <div>
-                            <span>45</span>) <span><em>Sport illustratie </em>10 apr. 1928, p. 328-329 (Den Bosch) en
-                                Idem 18 sep. 1928, p. 919-919 (Roermond).</span>
+                            45) <em>Sport illustratie </em>10 apr. 1928, p. 328-329 (Den Bosch) en
+                                Idem 18 sep. 1928, p. 919-919 (Roermond).
                         </div>
                         <div>
-                            <span>46</span>) <span><em>Sport illustratie </em>25 mrt. 1930, p. 318-319; idem 1 apr.
-                                1930, p. 345 en 8 ap. 1930, p. 373.</span>
+                            46) <em>Sport illustratie </em>25 mrt. 1930, p. 318-319; idem 1 apr.
+                                1930, p. 345 en 8 ap. 1930, p. 373.
                         </div>
                         <div>
-                            <span>47</span>) <span><em>Sport illustratie </em>19 aug. 1930, p. 905 en 921 en Idem 7 okt.
-                                1930, p. 1905.</span>
+                            47) <em>Sport illustratie </em>19 aug. 1930, p. 905 en 921 en Idem 7 okt.
+                                1930, p. 1905.
                         </div>
                         <div>
-                            <span>48</span>) <span><em>Gedenkboek N.K.G.B. 1921-1961</em>, p. 11-12.</span>
+                            48) <em>Gedenkboek N.K.G.B. 1921-1961</em>, p. 11-12.
                         </div>
                         <div>
-                            <span>49</span>) <span>In Utrecht bestonden de kringen Gooi- en Eemland, Twente en Utrecht
+                            49) In Utrecht bestonden de kringen Gooi- en Eemland, Twente en Utrecht
                                 en in Limburg de kringen Venlo (ook wel Noord-Limburg), Heerlen en Maastricht;
-                                <em>Katholieke Turner </em>5 mrt. 1940, p. 57 en 101.</span>
+                                <em>Katholieke Turner </em>5 mrt. 1940, p. 57 en 101.
                         </div>
                         <div>
-                            <span>50</span>) <span><em>Gedenkboek N.K.G.B. 1921-1961</em>, p. 11.</span>
+                            50) <em>Gedenkboek N.K.G.B. 1921-1961</em>, p. 11.
+                        </div>
                         </div>
                     </div>
                 </div>

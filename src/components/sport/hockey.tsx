@@ -87,11 +87,12 @@ export function Hockey() {
                                 dezelfde maand werd begonnen met een eigen dames-competitie, waarin vier clubs
                                 uitkwamen.<sup>15</sup></p>
 
-                            <p><img
+                            <div><img
                                 title="Mevrouw H.A. Tromp nam in oktober 1911 het initiatief tot de oprichting van de Nederlandsche Dames Hockeybond. Bron: De Sportkroniek 5 mrt. 1912, p. 566. "
                                 alt="Mevrouw H.A. Tromp nam in oktober 1911 het initiatief tot de oprichting van de Nederlandsche Dames Hockeybond. Bron: De Sportkroniek 5 mrt. 1912, p. 566. "
                                 src="http://www.historici.nl/media/verenigingsleven_sport/jpg/klein/sportkroniek1912_mevr_tromp.jpg"/>
-                            </p>
+                                <div className="picSubScript">Mevrouw H.A. Tromp nam in oktober 1911 het initiatief tot de oprichting van de Nederlandsche Dames Hockeybond. Bron: De Sportkroniek 5 mrt. 1912, p. 566. </div>
+                            </div>
 
                             <p>Hockey ontwikkelde zich in de jaren tien en twintig heel langzaam. In 1911 waren de
                                 meeste clubs waren in het westen van Nederland gevestigd. Er waren daarbuiten nog clubs
@@ -125,11 +126,12 @@ export function Hockey() {
                                 Actie een competitie in het bisdom Haarlem voor katholieke dameshockeyclubs met Hurry
                                 Up, Thor, Quick, L.H.S., Olympia, N.V.A., Keep Fit, Wilskracht en The Unity.<sup>19</sup></p>
 
-                            <p><img
+                            <div><img
                                 title="Foto van de dameshockeywedstrijd H.H.V. &#8211; Haarlem. Bron: De Sportkroniek 5 mrt. 1912, p. 567."
                                 alt="Foto van de dameshockeywedstrijd H.H.V. &#8211; Haarlem. Bron: De Sportkroniek 5 mrt. 1912, p. 567."
                                 src="http://www.historici.nl/media/verenigingsleven_sport/jpg/klein/sportkroniek1912_dameshockeyhhv_haarlem.jpg"/>
-                            </p>
+                                <div className="picSubScript">Foto van de dameshockeywedstrijd H.H.V. &#8211; Haarlem. Bron: De Sportkroniek 5 mrt. 1912, p. 567.</div>
+                            </div>
                             <p>In 1935 wijzigde de N.H.B.B. de naam in Nederlandsche Hockey Bond als gevolg van de
                                 oprichting van de Nederlandsche IJshockey Bond. Op 8 oktober 1938 kreeg de bond het
                                 predikaat &#8220;Koninklijk&#8221;.</p>
@@ -165,11 +167,12 @@ export function Hockey() {
                                 naderhand als de offici&#235;le opening van het veldseizoen.<sup>24</sup>
                             </p>
 
-                            <p><img
+                            <div><img
                                 title="Foto van de deelnemers aan de eerste Hockeydag van de Nederlandsche Hockey en Bandybond op 1 december 1901 te Heemstede. Bron: Gedenkboek der Amsterdamsche Hockey- en Bandy Club, uitgegeven ter gelegenheid van het 75-jarig jubileum. 1892 &#8211; 28 januari &#8211; 1967 [Amsterdam 1967], p. 53."
                                 alt="Foto van de deelnemers aan de eerste Hockeydag van de Nederlandsche Hockey en Bandybond op 1 december 1901 te Heemstede. Bron: Gedenkboek der Amsterdamsche Hockey- en Bandy Club, uitgegeven ter gelegenheid van het 75-jarig jubileum. 1892 &#8211; 28 januari &#8211; 1967 [Amsterdam 1967], p. 53."
                                 src="http://www.historici.nl/media/verenigingsleven_sport/jpg/klein/hockeyHeemstede.jpg"/>
-                            </p>
+                                <div className="picSubScript">Foto van de deelnemers aan de eerste Hockeydag van de Nederlandsche Hockey en Bandybond op 1 december 1901 te Heemstede. Bron: Gedenkboek der Amsterdamsche Hockey- en Bandy Club, uitgegeven ter gelegenheid van het 75-jarig jubileum. 1892 &#8211; 28 januari &#8211; 1967 [Amsterdam 1967], p. 53.</div>
+                            </div>
 
                             <p><em>Officieel orgaan</em></p>
 

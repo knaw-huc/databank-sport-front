@@ -104,11 +104,12 @@ export function Voetbal() {
                                     het plan weder op te vatten, volgaarne wil ik hem behulpzaam zijn het te helpen
                                     uitvoeren.<sup>8</sup></p>
 
-                                <p><img
+                                <div><img
                                     title="Willem (Pim) Mulier (1865-1954) speelde een belangrijke rol bij de introductie en groei van het voetbal in Nederland. Bron: Cees Zevenbergen, Rotterdams Voetbalglorie 1886-1986. Kroniek van een eeuw stedelijke Voetbalhistorie (Rijswijk 1986), p. 10."
                                     alt="Willem (Pim) Mulier (1865-1954) speelde een belangrijke rol bij de introductie en groei van het voetbal in Nederland. Bron: Cees Zevenbergen, Rotterdams Voetbalglorie 1886-1986. Kroniek van een eeuw stedelijke Voetbalhistorie (Rijswijk 1986), p. 10."
                                     src="http://www.historici.nl/media/verenigingsleven_sport/jpg/klein/Mulier.jpg"/>
-                                </p>
+                                    <div className="picSubScript">Willem (Pim) Mulier (1865-1954) speelde een belangrijke rol bij de introductie en groei van het voetbal in Nederland. Bron: Cees Zevenbergen, Rotterdams Voetbalglorie 1886-1986. Kroniek van een eeuw stedelijke Voetbalhistorie (Rijswijk 1986), p. 10.</div>
+                                </div>
 
                                 <p>Voor Mulier was dit aanleiding een nieuw plan op te stellen voor de oprichting van
                                     een landelijke voetbalbond. Hij nodigde tal van verenigingen uit voor een
@@ -360,11 +361,12 @@ export function Voetbal() {
                                     de eerste klassen van de onderbonden promoveren naar deze nieuw gevormde landelijke
                                     klassen, mits zij ook voldeden aan de andere criteria.</p>
 
-                                <p><img
+                                <div><img
                                     title="Elftalfoto van de Leidse voetbalvereniging De Sportman met hun kleedhok op de achtergrond, ongedateerd. Bron: Peter de Bruijn, Jaap Jacobs e.a., Ajax Sportman Combinatie 1892-1992 (z.p. 1992), p. 15."
                                     alt="Elftalfoto van de Leidse voetbalvereniging De Sportman met hun kleedhok op de achtergrond, ongedateerd. Bron: Peter de Bruijn, Jaap Jacobs e.a., Ajax Sportman Combinatie 1892-1992 (z.p. 1992), p. 15."
                                     src="http://www.historici.nl/media/verenigingsleven_sport/jpg/klein/elftal_Sportman.jpg"/>
-                                </p>
+                                    <div className="picSubScript">Elftalfoto van de Leidse voetbalvereniging De Sportman met hun kleedhok op de achtergrond, ongedateerd. Bron: Peter de Bruijn, Jaap Jacobs e.a., Ajax Sportman Combinatie 1892-1992 (z.p. 1992), p. 15.</div>
+                                </div>
 
                                 <p>In 1923 werd voor alle afdelingen de verhouding van de eerste, tweede, derde en
                                     vierde klassen vastgelegd. Dit gebeurde volgens het piramide-systeem met
@@ -631,11 +633,12 @@ export function Voetbal() {
                                     evenmin veranderd, maar kozen een sportieve afkorting van de bedrijfsnaam
                                     (bijvoorbeeld A.E.G. en S.H.E.L.L.).</p>
 
-                                <p><img
+                                <div><img
                                     title="Voorbeeld van de rubriek &#8220;Registratie van clubnamen&#8221; met de opgaven van de nieuwe en verdwenen namen van voetbalclubs. Bron: Sportkroniek 19 aug. 1935, p. 967."
                                     alt="Voorbeeld van de rubriek &#8220;Registratie van clubnamen&#8221; met de opgaven van de nieuwe en verdwenen namen van voetbalclubs. Bron: Sportkroniek 19 aug. 1935, p. 967."
                                     src="http://www.historici.nl/media/verenigingsleven_sport/jpg/klein/registratieclubnamen_aug_1935.jpg"/>
-                                </p>
+                                    <div className="picSubScript">Voorbeeld van de rubriek &#8220;Registratie van clubnamen&#8221; met de opgaven van de nieuwe en verdwenen namen van voetbalclubs. Bron: Sportkroniek 19 aug. 1935, p. 967.</div>
+                                </div>
 
                                 <p>In juni 1940 kwam door de fusie van de verschillende voetbalbonden de registratie van
                                     de namen van alle Nederlandse clubs weer bij de N.V.B. terecht. Wanneer katholieke
@@ -687,11 +690,12 @@ export function Voetbal() {
                                     nam het initiatief tot de oprichting op 19 september 1915 van de R.K.V.B.
                                     Noord-Brabant Westelijke deel en hij was naderhand ook betrokken bij de
                                     oprichting van de overige katholieke voetbalorganisaties.</p>
-                                <p><img
+                                <div><img
                                     title="W.J.C. Binck (1882-1971) speelde een belangrijke rol in de opkomst van de katholieke voetbalbonden. Bron: Marjet Derks en Marc Budel, Sportief en katholiek. Geschiedenis van de katholieke sportbeweging in Nederland in de twintigste eeuw (Nijmegen 1990), p. 30."
                                     alt="W.J.C. Binck (1882-1971) speelde een belangrijke rol in de opkomst van de katholieke voetbalbonden. Bron: Marjet Derks en Marc Budel, Sportief en katholiek. Geschiedenis van de katholieke sportbeweging in Nederland in de twintigste eeuw (Nijmegen 1990), p. 30."
                                     src="http://www.historici.nl/media/verenigingsleven_sport/jpg/klein/wjc_binck.jpg"/>
-                                </p>
+                                    <div className="picSubScript">W.J.C. Binck (1882-1971) speelde een belangrijke rol in de opkomst van de katholieke voetbalbonden. Bron: Marjet Derks en Marc Budel, Sportief en katholiek. Geschiedenis van de katholieke sportbeweging in Nederland in de twintigste eeuw (Nijmegen 1990), p. 30.</div>
+                                </div>
 
                                 <p>In november 1915 publiceerde Binck &#8220;Het leeren gevaar&#8221; in het katholieke
                                     dagblad <em>De Maasbode</em>.<sup>30</sup> Hij verklaarde in
@@ -935,14 +939,17 @@ export function Voetbal() {
                                     spelen. Dit gold met name voor de regio Den Haag en Leiden. Voor zover bekend heeft
                                     de C.N.V.B. nooit een offici&#235;le registratie van clubnamen gehad.</p>
 
-                                <p><img
+                                <div><img
                                     title="Voetbal op lager niveau. Een spelmoment uit de Schiedamse derby Pro Patria &#8211; Velocitas zonder doelnetten en publiek. De wedstrijd werd in januari 1930 gespeeld voor de eerste klasse van de Rotterdamsche Christelijke Voetbalbond. Bron: Lichaamsoefening 23 jan. 1930, p. 43."
                                     alt="Voetbal op lager niveau. Een spelmoment uit de Schiedamse derby Pro Patria &#8211; Velocitas zonder doelnetten en publiek. De wedstrijd werd in januari 1930 gespeeld voor de eerste klasse van de Rotterdamsche Christelijke Voetbalbond. Bron: Lichaamsoefening 23 jan. 1930, p. 43."
-                                    src="http://www.historici.nl/media/verenigingsleven_sport/jpg/klein/wedstrijdProPatria_Velocitas.jpg"/><img
+                                    src="http://www.historici.nl/media/verenigingsleven_sport/jpg/klein/wedstrijdProPatria_Velocitas.jpg"/>
+                                    <div className="picSubScript">Voetbal op lager niveau. Een spelmoment uit de Schiedamse derby Pro Patria &#8211; Velocitas zonder doelnetten en publiek. De wedstrijd werd in januari 1930 gespeeld voor de eerste klasse van de Rotterdamsche Christelijke Voetbalbond. Bron: Lichaamsoefening 23 jan. 1930, p. 43.</div>
+                                    <img
                                     title="Voetbal in volle glorie. Een foto van de Rotterdamse derby Sparta &#8211; Feyenoord voor &#8220;een slordige 20.000 menschen&#8221; op Spangen in oktober 1936. Bron: Sport in beeld/Revue der sporten 12 okt. 1936, p. 1 (foto) en 8 (toelichting)."
                                     alt="Voetbal in volle glorie. Een foto van de Rotterdamse derby Sparta &#8211; Feyenoord voor &#8220;een slordige 20.000 menschen&#8221; op Spangen in oktober 1936. Bron: Sport in beeld/Revue der sporten 12 okt. 1936, p. 1 (foto) en 8 (toelichting)."
                                     src="http://www.historici.nl/media/verenigingsleven_sport/jpg/klein/wedstrijdfeyenoord1936.jpg"/>
-                                </p>
+                                    <div className="picSubScript">Voetbal in volle glorie. Een foto van de Rotterdamse derby Sparta &#8211; Feyenoord voor &#8220;een slordige 20.000 menschen&#8221; op Spangen in oktober 1936. Bron: Sport in beeld/Revue der sporten 12 okt. 1936, p. 1 (foto) en 8 (toelichting).</div>
+                                </div>
 
                                 <p>Op 31 juli 1940 ging de C.N.V.B. op in de N.V.B. De algemene ledenvergadering van de
                                     C.N.V.B. keurde op 10 augustus 1940 de fusie goed, maar met een

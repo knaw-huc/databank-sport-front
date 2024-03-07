@@ -68,11 +68,12 @@ export function Korfbal() {
                                         uitgesloten; &#8211; wat vele ouders ongetwijfeld op prijs zullen stellen. Zeker
                                         zal dit goedkoope spel zich spoedig een plaats veroveren naast voetbal.&#8221;<sup>5</sup></p>
 
-                                <p><img
+                                <div><img
                                     title="Nico Broekhuysen (1876-1958), onderwijzer aan de Nieuwe Schoolvereeniging te Amsterdam, introduceerde korfbal in Nederland. Hij was naderhand jarenlang voorzitter van de Nederlandsche Korfbalbond. Bron: Archief KNKV, Zeist."
                                     alt="Nico Broekhuysen (1876-1958), onderwijzer aan de Nieuwe Schoolvereeniging te Amsterdam, introduceerde korfbal in Nederland. Hij was naderhand jarenlang voorzitter van de Nederlandsche Korfbalbond. Bron: Archief KNKV, Zeist."
                                     src="http://www.historici.nl/media/verenigingsleven_sport/jpg/klein/IMG_0002.jpg"/>
-                                </p>
+                                    <div className="picSubScript">Nico Broekhuysen (1876-1958), onderwijzer aan de Nieuwe Schoolvereeniging te Amsterdam, introduceerde korfbal in Nederland. Hij was naderhand jarenlang voorzitter van de Nederlandsche Korfbalbond. Bron: Archief KNKV, Zeist.</div>
+                                </div>
 
                                 <p>Korfbal raakte inderdaad in korte tijd ruimer bekend, aangezien Broekhuysen overal in
                                     het land lezingen en cursussen voor korfballeiders ging geven. Het spel voldeed in
@@ -257,10 +258,12 @@ export function Korfbal() {
                                     eerste klasse van het Noorden meestrijden en vanaf 1936-1937 ook de kampioen van de
                                     eerste klasse van het Zuiden.</p>
 
-                                <p><img
+                                <div><img
                                     title="Ongedateerde foto van een wedstrijd in de eerste jaren van de korfbalsport. De man rechts met pet is de scheidsrechter. Bron: Archief KNKV, Zeist."
                                     alt="Ongedateerde foto van een wedstrijd in de eerste jaren van de korfbalsport. De man rechts met pet is de scheidsrechter. Bron: Archief KNKV, Zeist."
-                                    src="http://www.historici.nl/media/verenigingsleven_sport/jpg/klein/3553.jpg"/></p>
+                                    src="http://www.historici.nl/media/verenigingsleven_sport/jpg/klein/3553.jpg"/>
+                                <div className="picSubScript">Ongedateerde foto van een wedstrijd in de eerste jaren van de korfbalsport. De man rechts met pet is de scheidsrechter. Bron: Archief KNKV, Zeist.</div>
+                                </div>
 
                                 <p>In 1919 werd een contract opgesteld voor de onderlinge verhoudingen tussen de N.K.B.
                                     en de lokale bonden. Dit bepaalde dat de N.K.B. gerechtigd was de kampioen van de
@@ -399,11 +402,12 @@ export function Korfbal() {
                                         er een schoonheidsprijs uitgedeeld aan de ploeg die het mooiste spel had laten
                                         zien.</p>
 
-                                <p><img
+                                <div><img
                                     title="Groepsfoto van de deelnemende clubs aan de Bondsdag van de C.K.B. gehouden te Delft in de jaren twintig van de twintigste eeuw. Bron: Dertig jaren C.K.B. (z.p. 1950), tegenover p. 17."
                                     alt="Groepsfoto van de deelnemende clubs aan de Bondsdag van de C.K.B. gehouden te Delft in de jaren twintig van de twintigste eeuw. Bron: Dertig jaren C.K.B. (z.p. 1950), tegenover p. 17."
                                     src="http://www.historici.nl/media/verenigingsleven_sport/jpg/klein/ckb_bondsdag_delft.jpg"/>
-                                </p>
+                                    <div className="picSubScript">Groepsfoto van de deelnemende clubs aan de Bondsdag van de C.K.B. gehouden te Delft in de jaren twintig van de twintigste eeuw. Bron: Dertig jaren C.K.B. (z.p. 1950), tegenover p. 17.</div>
+                                </div>
 
                                 <p>In 1939 kon de C.K.B. de competitie niet afmaken als gevolg van de mobilisatie.<sup>36</sup> In het volgende jaar werd enkel op Tweede Paasdag
                                     de Bondsdag gehouden in Den Haag.<sup>37</sup> Na de Duitse

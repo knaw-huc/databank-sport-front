@@ -88,11 +88,12 @@ export function Tennis() {
                             volgende jaren.<a  id="tooltipid_noot12" rel=".tooltipclass_noot12"
                                               href="#noot12" ><sup>12</sup></a></p>
 
-                        <p><img
+                        <div><img
                             title="Tijdens de Eerste Wereldoorlog viel de invoer van tennisballen vanuit Engeland weg, zodat naar alternatief materiaal moest worden gezocht. Hier wordt een proef gedaan met &#8220;onbekleede ballen, de Balwina&#8217;s van Vredensteinl&#8221;. Van links naar rechts mr. L. Nijpels, ir. Schiff, H. Hoyte Veder, Schiff Junior, F. des Tombe en C. Loos Junior. Bron: "
                             alt="Tijdens de Eerste Wereldoorlog viel de invoer van tennisballen vanuit Engeland weg, zodat naar alternatief materiaal moest worden gezocht. Hier wordt een proef gedaan met &#8220;onbekleede ballen, de Balwina&#8217;s van Vredensteinl&#8221;. Van links naar rechts mr. L. Nijpels, ir. Schiff, H. Hoyte Veder, Schiff Junior, F. des Tombe en C. Loos Junior. Bron: "
                             src="http://www.historici.nl/media/verenigingsleven_sport/jpg/klein/vredesteinballen.jpg"/>
-                        </p>
+                            <div className="picSubScript">Tijdens de Eerste Wereldoorlog viel de invoer van tennisballen vanuit Engeland weg, zodat naar alternatief materiaal moest worden gezocht. Hier wordt een proef gedaan met &#8220;onbekleede ballen, de Balwina&#8217;s van Vredensteinl&#8221;. Van links naar rechts mr. L. Nijpels, ir. Schiff, H. Hoyte Veder, Schiff Junior, F. des Tombe en C. Loos Junior. Bron: </div>
+                        </div>
 
                         <p>Het lijkt erop dat de meeste clubs niet groot waren, want zij hadden veelal
                             slechts &#233;&#233;n team in de competitie. In april 1936 werd op de algemene
@@ -143,11 +144,12 @@ export function Tennis() {
                                                                                           href="#noot20"><sup>20</sup></a>
                         </p>
 
-                        <p><img
+                        <div><img
                             title="Burgemeester Van Gerrevink slaat de eerste bal bij de opening van de banen van het Carla Tennispark in Oegstgeest. Bron:  Sport in beeld/De revue der sporten 8 okt. 1934, p. 6."
                             alt="Burgemeester Van Gerrevink slaat de eerste bal bij de opening van de banen van het Carla Tennispark in Oegstgeest. Bron:  Sport in beeld/De revue der sporten 8 okt. 1934, p. 6."
                             src="http://www.historici.nl/media/verenigingsleven_sport/jpg/klein/gerrevinkoptennisparkcarla.jpg"/>
-                        </p>
+                            <div className="picSubScript">Burgemeester Van Gerrevink slaat de eerste bal bij de opening van de banen van het Carla Tennispark in Oegstgeest. Bron:  Sport in beeld/De revue der sporten 8 okt. 1934, p. 6.</div>
+                        </div>
 
                         <p><em>Competitie</em></p>
 
@@ -173,10 +175,12 @@ export function Tennis() {
                                                                            rel=".tooltipclass_noot24" href="#noot24"
                                                                            ><sup>24</sup></a></p>
 
-                        <p><img
+                        <div><img
                             title="Groepsfoto van de Haagsche Lawn Tennis Club Leimonias, circa 1903. Bron: Theo Bollerman, Gravel &amp; Gras. Witte tenniskleding verplicht. Heden en verleden van de Tennisparken, de Clubs en de Mensen in Den Haag en Omstreken (Den Haag 2003), p. 79."
                             alt="Groepsfoto van de Haagsche Lawn Tennis Club Leimonias, circa 1903. Bron: Theo Bollerman, Gravel &amp; Gras. Witte tenniskleding verplicht. Heden en verleden van de Tennisparken, de Clubs en de Mensen in Den Haag en Omstreken (Den Haag 2003), p. 79."
-                            src="http://www.historici.nl/media/verenigingsleven_sport/jpg/klein/leimonias.jpg"/></p>
+                            src="http://www.historici.nl/media/verenigingsleven_sport/jpg/klein/leimonias.jpg"/>
+                        <div className="picSubScript">Groepsfoto van de Haagsche Lawn Tennis Club Leimonias, circa 1903. Bron: Theo Bollerman, Gravel &amp; Gras. Witte tenniskleding verplicht. Heden en verleden van de Tennisparken, de Clubs en de Mensen in Den Haag en Omstreken (Den Haag 2003), p. 79.</div>
+                        </div>
 
                         <p><em>Officieel orgaan</em></p>
 

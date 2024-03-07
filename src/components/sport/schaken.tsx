@@ -80,11 +80,12 @@ export function Schaken() {
                                     kampioenschap, maar die werd onregelmatig gehouden. Zo werd er tussen 1913
                                     en 1919 geen titeltoernooi voor de beste schakers van het land gehouden.</p>
 
-                                <p><img
+                                <div><img
                                     title="Wedstrijd van de Nederlandsche Schaakbond te Leiden in 1896. Bron: H.J.G.M. Scholten, &#8220;Het loopt ongenadiglijk mat&#8221;. Het schaakleven in Nederland in de negentiende eeuw. De sociaal-culturele achtergrond van het ontstaan van schaakverenigingen (Bilthoven 1999), p. 298."
                                     alt="Wedstrijd van de Nederlandsche Schaakbond te Leiden in 1896. Bron: H.J.G.M. Scholten, &#8220;Het loopt ongenadiglijk mat&#8221;. Het schaakleven in Nederland in de negentiende eeuw. De sociaal-culturele achtergrond van het ontstaan van schaakverenigingen (Bilthoven 1999), p. 298."
                                     src="http://www.historici.nl/media/verenigingsleven_sport/jpg/klein/wedstrijdNed_schaakbond1896.jpg"/>
-                                </p>
+                                    <div className="picSubScript">Wedstrijd van de Nederlandsche Schaakbond te Leiden in 1896. Bron: H.J.G.M. Scholten, &#8220;Het loopt ongenadiglijk mat&#8221;. Het schaakleven in Nederland in de negentiende eeuw. De sociaal-culturele achtergrond van het ontstaan van schaakverenigingen (Bilthoven 1999), p. 298.</div>
+                                </div>
 
                                 <p>In 1909 telde de N.S.B. 23 aangesloten clubs, wat volgens het jaarverslag &#8220;ruim
                                     een derde van het bestaande aantal in ons land&#8221; was. Het verslag sprak de hoop
@@ -100,11 +101,12 @@ export function Schaken() {
                                     damesverenigingen, confessionele en socialistische clubs, bedrijfsverenigingen en
                                     schoolclubs.</p>
 
-                                <p><img
+                                <div><img
                                     title="De wedstrijd van de Nederlandsche Schaakbond in 1899. Bron: H.J.G.M. Scholten, &#8220;Het loopt ongenadiglijk mat&#8221;. Het schaakleven in Nederland in de negentiende eeuw. De sociaal-culturele achtergrond van het ontstaan van schaakverenigingen (Bilthoven 1999), p. 458."
                                     alt="De wedstrijd van de Nederlandsche Schaakbond in 1899. Bron: H.J.G.M. Scholten, &#8220;Het loopt ongenadiglijk mat&#8221;. Het schaakleven in Nederland in de negentiende eeuw. De sociaal-culturele achtergrond van het ontstaan van schaakverenigingen (Bilthoven 1999), p. 458."
                                     src="http://www.historici.nl/media/verenigingsleven_sport/jpg/klein/wedstrijd_Nedschaakbond1899.jpg"/>
-                                </p>
+                                    <div className="picSubScript">De wedstrijd van de Nederlandsche Schaakbond in 1899. Bron: H.J.G.M. Scholten, &#8220;Het loopt ongenadiglijk mat&#8221;. Het schaakleven in Nederland in de negentiende eeuw. De sociaal-culturele achtergrond van het ontstaan van schaakverenigingen (Bilthoven 1999), p. 458.</div>
+                                </div>
 
                                 <p>Max Euwe (1901-1981) gold in de jaren twintig en dertig als de beste schaker van
                                     Nederland; er werden zelfs al vroeg schaakclubs naar hem genoemd. In

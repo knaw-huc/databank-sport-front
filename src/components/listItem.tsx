@@ -1,6 +1,6 @@
 import React, {useMemo} from 'react';
 import {Link} from 'react-router-dom';
-import {IResultItem, ISport} from '../misc/interfaces';
+import {IProvincie, IResultItem, ISport} from '../misc/interfaces';
 
 
 export default function ListItem({item}: { item: IResultItem }) {
@@ -36,10 +36,21 @@ export default function ListItem({item}: { item: IResultItem }) {
         }
     }
 
+    function splitProvince(provincie: IProvincie[]) {
+        let retVal = '';
+        provincie.map((item, index) => {
+            if (index > 0) {
+                retVal = retVal + ', ';
+            }
+            retVal = retVal + item.provincie;
+        })
+        return retVal
+    }
+
     return (
         <div className="hcResultListDetail">
             <h2><Link to={'/detail/' + item.id}>{item.naam}</Link></h2>
-            <div>{item.plaats} - {item.provincie}{sports(item.sports)}{jaar(item.beginjaar, 'vanaf: ')}{jaar(item.eindjaar, 'Tot: ')}{strItem(item.levensbeschouwing)}</div>
+            <div>{item.plaats} - {splitProvince(item.provincie)}{sports(item.sports)}{jaar(item.beginjaar, 'vanaf: ')}{jaar(item.eindjaar, 'Tot: ')}{strItem(item.levensbeschouwing)}</div>
         </div>
     );
 }

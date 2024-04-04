@@ -16,13 +16,17 @@ export interface IResultItem {
     plaats: string,
     beginjaar: string,
     eindjaar: string,
-    provincie: string,
+    provincie: IProvincie[],
     levensbeschouwing: string
     sports: ISport[]
 }
 
 export interface ISport {
     sport: string
+}
+
+export interface IProvincie {
+    provincie: string
 }
 
 export interface IDetail {

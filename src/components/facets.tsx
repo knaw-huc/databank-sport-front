@@ -8,20 +8,37 @@ export default function Facets({sendCandidateHandler}: { sendCandidateHandler: I
                    name="Sport"
                    field="sports.sport"
                    url="http://localhost:5000/facet"
-        flex={false}/>
+                   flex={false}
+        />
+        <ListFacet parentCallback={sendCandidateHandler}
+                   name="Type"
+                   field="type"
+                   url="http://localhost:5000/facet"
+                   flex={false}
+        />
         <FilteredListFacet parentCallback={sendCandidateHandler}
-                   name="Plaats"
-                   field="plaats"
-                   url="http://localhost:5000/filter-facet"/>
+                           name="Plaats"
+                           field="plaats"
+                           url="http://localhost:5000/filter-facet"/>
         <ListFacet parentCallback={sendCandidateHandler}
                    name="Provincie"
-                   field="provincie"
+                   field="provincie.provincie"
                    url="http://localhost:5000/facet"
-        flex={true}/>
+                   flex={true}
+        />
+        <FilteredListFacet parentCallback={sendCandidateHandler}
+                           name="Landelijke bond"
+                           field="landelijk.naam"
+                           url="http://localhost:5000/filter-facet"/>
+        <FilteredListFacet parentCallback={sendCandidateHandler}
+                           name="Regionale bond"
+                           field="lokaal.naam"
+                           url="http://localhost:5000/filter-facet"/>
         <ListFacet parentCallback={sendCandidateHandler}
                    name="Levensbeschouwing"
                    field="levensbeschouwing"
                    url="http://localhost:5000/facet"
-        flex={false}/>
+                   flex={false}
+        />
     </>;
 }

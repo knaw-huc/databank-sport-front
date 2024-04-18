@@ -1,9 +1,29 @@
 import React from "react";
-import {FreeTextFacet, ListFacet, FilteredListFacet, ISendCandidate} from 'browser-base-react';
+import {FreeTextFacet, ListFacet, FacetsParams} from '@knaw-huc/browser-base-react';
 
-export default function Facets({sendCandidateHandler}: { sendCandidateHandler: ISendCandidate }) {
+export default function Facets({registerFacet, unregisterFacet, setFacet, searchValues}: FacetsParams) {
     return <>
-        <FreeTextFacet add={sendCandidateHandler}/>
+        {/*<FreeTextFacet registerFacet={registerFacet} unregisterFacet={unregisterFacet} setFacet={setFacet}/>
+        <ListFacet registerFacet={registerFacet}
+                   unregisterFacet={unregisterFacet}
+                   setFacet={setFacet}
+                   name="Sport"
+                   field="sports.sport"
+                   url="http://localhost:5000/facet"
+                   flex={false}
+                   usePost={true}
+                   searchValues={searchValues}/>
+        <ListFacet registerFacet={registerFacet}
+                   unregisterFacet={unregisterFacet}
+                   setFacet={setFacet}
+                   name="Type"
+                   field="type"
+                   url="http://localhost:5000/facet"
+                   flex={false}
+                   usePost={true}
+                   searchValues={searchValues}/>*/}
+
+        {/*<FreeTextFacet add={sendCandidateHandler}/>
         <ListFacet parentCallback={sendCandidateHandler}
                    name="Sport"
                    field="sports.sport"
@@ -39,6 +59,6 @@ export default function Facets({sendCandidateHandler}: { sendCandidateHandler: I
                    field="levensbeschouwing"
                    url="http://localhost:5000/facet"
                    flex={false}
-        />
+        />*/}
     </>;
 }

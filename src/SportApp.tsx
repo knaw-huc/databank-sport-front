@@ -1,5 +1,4 @@
 import React, {createElement} from 'react';
-import ReactDOM from 'react-dom/client';
 import logo from './logo.svg';
 import './assets/css/sport_style.css';
 import {
@@ -31,20 +30,9 @@ const header = <Header/>
 const searchLoader = createSearchLoader(searchUtils.getSearchObjectFromParams, 'http://localhost:5000/browse', 10);
 const title = 'Databank Sport';
 const detailLoader = createDetailLoader(id => `http://localhost:5000/detail/${id}`);
-const routeObject: RouteObject = {
-    path: '/',
-    element: <App header={header}/>,
-    children: [{
-        index: true,
-        loader: async ({request}) => searchLoader(new URL(request.url).searchParams),
-        element: <Search title={title} pageLength={30} withPaging={true}
-                         hasIndexPage={false} showSearchHeader={false} updateDocumentTitle={false}
-                         searchParams={SearchParams.PARAMS} FacetsComponent={Facets} ResultItemComponent={ListItem}/>
-    }, {
-        path: 'detail/:id',
-        loader: async ({params}) => detailLoader(params.id as string),
-        element: <BrowserDetail title={title} updateDocumentTitle={false} DetailComponent={Detail}/>
-    },
+
+function SportApp() {
+    const routes: RouteObject[] = [
         { path: '/literatuur', element: <Literatuur/> },
         { path: '/colofon', element: <Colofon/> },
         { path: '/gymnastiek', element: <Gymnastiek/>},
@@ -52,15 +40,37 @@ const routeObject: RouteObject = {
         { path: '/korfbal', element: <Korfbal/>},
         { path: '/schaken', element: <Schaken/>},
         { path: '/tennis', element: <Tennis/>},
-        { path: '/voetbal', element: <Voetbal/>}]
-};
+        { path: '/voetbal', element: <Voetbal/>}
+    ]
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+    const routeObject: RouteObject = {
+        path: '/',
+        element: <App header={header}/>,
+        children: [{
+            index: true,
+            loader: async ({request}) => searchLoader(new URL(request.url).searchParams),
+            element: <Search title={title} pageLength={30} withPaging={true}
+                             hasIndexPage={false} showSearchHeader={false} updateDocumentTitle={false}
+                             searchParams={SearchParams.PARAMS} FacetsComponent={Facets} ResultItemComponent={ListItem}/>
+        }, {
+            path: 'detail/:id',
+            loader: async ({params}) => detailLoader(params.id as string),
+            element: <BrowserDetail title={title} updateDocumentTitle={false} DetailComponent={Detail}/>
+        },
+            { path: '/literatuur', element: <Literatuur/> },
+            { path: '/colofon', element: <Colofon/> },
+            { path: '/gymnastiek', element: <Gymnastiek/>},
+            { path: '/hockey', element: <Hockey/>},
+            { path: '/korfbal', element: <Korfbal/>},
+            { path: '/schaken', element: <Schaken/>},
+            { path: '/tennis', element: <Tennis/>},
+            { path: '/voetbal', element: <Voetbal/>}]
+    };
+  return (
+   <div>
+       <RouterProvider router={createBrowserRouter([routeObject])}/>
+   </div>
+  );
+}
 
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-    <React.StrictMode>
-        <RouterProvider router={createBrowserRouter([routeObject])}/>
-    </React.StrictMode>
-);
+export default SportApp;

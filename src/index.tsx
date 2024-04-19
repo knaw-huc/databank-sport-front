@@ -19,7 +19,7 @@ import {Detail} from "./components/detail";
 import {Header} from "./components/pageHeader";
 import {Literatuur} from "./components/literatuur";
 import {Colofon} from "./components/colofon";
-import {rootPage} from "./components/rootPage";
+import {RootPage} from "./components/rootPage";
 import {Gymnastiek} from "./components/sport/gymnastiek";
 import {Hockey} from "./components/sport/hockey";
 import {Korfbal} from "./components/sport/korfbal";
@@ -30,18 +30,19 @@ import {Voetbal} from "./components/sport/voetbal";
 const header = <Header/>
 const searchLoader = createSearchLoader(searchUtils.getSearchObjectFromParams, 'http://localhost:5000/browse', 10);
 const title = 'Databank Sport';
-const detailLoader = createDetailLoader(id => `http://localhost:5000/detail/${id}`);
+const detailLoader = createDetailLoader(id => `http://localhost:5000/detail?rec=${id}`);
 const routeObject: RouteObject = {
     path: '/',
     element: <App header={header}/>,
-    children: [{
-        index: true,
+    children: [
+        {index: true, element: <RootPage/> },{
+        path:"/search",
         loader: async ({request}) => searchLoader(new URL(request.url).searchParams),
         element: <Search title={title} pageLength={30} withPaging={true}
                          hasIndexPage={false} showSearchHeader={false} updateDocumentTitle={false}
                          searchParams={SearchParams.PARAMS} FacetsComponent={Facets} ResultItemComponent={ListItem}/>
     }, {
-        path: 'detail/:id',
+        path: '/detail/:id',
         loader: async ({params}) => detailLoader(params.id as string),
         element: <BrowserDetail title={title} updateDocumentTitle={false} DetailComponent={Detail}/>
     },

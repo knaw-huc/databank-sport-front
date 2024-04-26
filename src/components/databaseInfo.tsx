@@ -1,10 +1,10 @@
 import React from "react";
 
-export function RootPage() {
+export function DatabaseInfo() {
 
     return (<div className="hcContentContainer hcMarginTop5 hcMarginBottom5">
         <div className="hcBasicSideMargin">
-            <h2>Inleiding</h2>
+            <h1>Databank</h1>
             <p>De databank bevat basisgegevens van de meeste bonden en clubs op het gebied van gymnastiek, hockey,
                 korfbal, schaken, tennis en voetbal v&#243;&#243;r 31 december 1940. Alle clubs die zich ooit bij een
                 landelijke of erkende regionale bond hebben aangesloten, zijn in principe in de databank terug te

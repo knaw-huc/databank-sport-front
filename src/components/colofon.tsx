@@ -8,7 +8,7 @@ export function Colofon() {
         <>
             <div className="hcContentContainer hcMarginTop5 hcMarginBottom5">
                 <div className="hcBasicSideMargin">
-                    <h2>Colofon</h2>
+                    <h1>Colofon</h1>
                     <div><p>Dit project werd in de jaren 2006 tot 2011 uitgevoerd door Michel van Gent. Bij het invoeren
                         van gegevens werd hij bijgestaan door assistente Joke van Leeuwen. De illustraties werden
                         verzorgd door Milo van de Pol en de webapplicatie werd ontwikkeld door Bram van Dam.</p>

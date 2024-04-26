@@ -8,7 +8,7 @@ export function Literatuur() {
         <>
             <div className="hcContentContainer hcMarginTop5 hcMarginBottom5">
                 <div className="hcBasicSideMargin">
-            <h2>Literatuur</h2>
+            <h1>Literatuur</h1>
 
                 <div><ul>
                     <li>Alle bondsbladen kunnen geraadpleegd worden in het Nationaal Archief (archief KNVB), de Koninklijke Bibliotheek Den Haag, het Katholiek Documentatie Centrum Nijmegen, de Nederlands Katholieke Sportfederatie Den Bosch of bij de afzonderlijke sportbonden.</li>

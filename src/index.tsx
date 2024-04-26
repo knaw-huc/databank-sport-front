@@ -19,13 +19,15 @@ import {Detail} from "./components/detail";
 import {Header} from "./components/pageHeader";
 import {Literatuur} from "./components/literatuur";
 import {Colofon} from "./components/colofon";
-import {RootPage} from "./components/rootPage";
+import {DatabaseInfo} from "./components/databaseInfo";
 import {Gymnastiek} from "./components/sport/gymnastiek";
 import {Hockey} from "./components/sport/hockey";
 import {Korfbal} from "./components/sport/korfbal";
 import {Schaken} from "./components/sport/schaken";
 import {Tennis} from "./components/sport/tennis";
 import {Voetbal} from "./components/sport/voetbal";
+import {Home} from "./components/home";
+import {Inleiding} from "./components/inleiding";
 
 const header = <Header/>
 const searchLoader = createSearchLoader(searchUtils.getSearchObjectFromParams, 'http://localhost:5000/browse', 10);
@@ -35,7 +37,8 @@ const routeObject: RouteObject = {
     path: '/',
     element: <App header={header}/>,
     children: [
-        {index: true, element: <RootPage/> },{
+        {index: true, element: <Home/> },
+        {
         path:"/search",
         loader: async ({request}) => searchLoader(new URL(request.url).searchParams),
         element: <Search title={title} pageLength={30} withPaging={true}
@@ -53,7 +56,9 @@ const routeObject: RouteObject = {
         { path: '/korfbal', element: <Korfbal/>},
         { path: '/schaken', element: <Schaken/>},
         { path: '/tennis', element: <Tennis/>},
-        { path: '/voetbal', element: <Voetbal/>}]
+        { path: '/voetbal', element: <Voetbal/>},
+        { path: '/inleiding', element: <Inleiding/>},
+        { path: '/database', element: <DatabaseInfo/>}]
 };
 
 // If you want to start measuring performance in your app, pass a function

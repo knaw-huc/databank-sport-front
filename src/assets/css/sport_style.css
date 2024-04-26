@@ -391,6 +391,7 @@ cursor: pointer;
 display: inline;
 }
 
+
 .hcPageSelector {
 height: 36px;
 font-size: 12px !important;
@@ -420,6 +421,7 @@ text-transform: uppercase;
 font-weight: bold;
 font-size: 20px;
 margin: 36px 0 0 0;
+cursor: pointer;
 }
 
 
@@ -525,9 +527,16 @@ color:#333333;
 width: 220px;
 }
 
+.sportListItem {
+cursor: pointer;
+color: #0087d4;
+}
 .sportMenuItem{
 cursor: pointer;
+}
 
+.sportList{
+margin-bottom: 12px;
 }
 
 span {
@@ -552,4 +561,9 @@ margin: 10px 0 20px 0;
 font-style: italic;
 font-size: smaller;
 margin-bottom: 14px;
+}
+
+.centerImage{
+width: 100%;
+margin: 20px 0;
 }

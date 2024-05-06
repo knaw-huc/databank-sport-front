@@ -1,5 +1,5 @@
 import React from "react";
-import {FreeTextFacet, ListFacet, FacetsParams} from '@knaw-huc/browser-base-react';
+import {FreeTextFacet, ListFacet, SliderFacet, FacetsParams} from '@knaw-huc/browser-base-react';
 
 export default function Facets({registerFacet, unregisterFacet, setFacet, searchValues}: FacetsParams) {
     return <>
@@ -11,7 +11,7 @@ export default function Facets({registerFacet, unregisterFacet, setFacet, search
                    field="sports.sport"
                    url="http://localhost:5000/facet"
                    flex={false}
-                   usePost={false}
+                   usePost={true}
                    searchValues={searchValues}/>
         <ListFacet registerFacet={registerFacet}
                    unregisterFacet={unregisterFacet}
@@ -20,16 +20,16 @@ export default function Facets({registerFacet, unregisterFacet, setFacet, search
                    field="type"
                    url="http://localhost:5000/facet"
                    flex={false}
-                   usePost={false}
+                   usePost={true}
                    searchValues={searchValues}/>
         <ListFacet registerFacet={registerFacet}
                    unregisterFacet={unregisterFacet}
                    setFacet={setFacet}
                    name="Plaats"
                    field="plaats"
-                   url="http://localhost:5000/filter-facet"
+                   url="http://localhost:5000/facet"
                    flex={false}
-                   usePost={false}
+                   usePost={true}
                    addFilter={true}
                    searchValues={searchValues}/>
         <ListFacet registerFacet={registerFacet}
@@ -37,18 +37,18 @@ export default function Facets({registerFacet, unregisterFacet, setFacet, search
                    setFacet={setFacet}
                    name="Provincie"
                    field="provincie.provincie"
-                   url="http://localhost:5000/filter-facet"
+                   url="http://localhost:5000/facet"
                    flex={false}
-                   usePost={false}
+                   usePost={true}
                    searchValues={searchValues}/>
         <ListFacet registerFacet={registerFacet}
                    unregisterFacet={unregisterFacet}
                    setFacet={setFacet}
                    name="Landelijke bond"
                    field="landelijk.naam"
-                   url="http://localhost:5000/filter-facet"
+                   url="http://localhost:5000/facet"
                    flex={false}
-                   usePost={false}
+                   usePost={true}
                    addFilter={true}
                    searchValues={searchValues}/>
         <ListFacet registerFacet={registerFacet}
@@ -56,19 +56,55 @@ export default function Facets({registerFacet, unregisterFacet, setFacet, search
                    setFacet={setFacet}
                    name="Regionale bond"
                    field="lokaal.naam"
-                   url="http://localhost:5000/filter-facet"
+                   url="http://localhost:5000/facet"
                    flex={false}
-                   usePost={false}
+                   usePost={true}
                    addFilter={true}
+                   searchValues={searchValues}/>
+        <SliderFacet
+                    registerFacet={registerFacet}
+                    unregisterFacet={unregisterFacet}
+                    setFacet={setFacet}
+                    name="Beginjaar"
+                    field="beginjaar"
+                    min={1900}
+                    max={1940}/>
+        <ListFacet registerFacet={registerFacet}
+                   unregisterFacet={unregisterFacet}
+                   setFacet={setFacet}
+                   name="Status beginjaar"
+                   field="begindatum_soort"
+                   url="http://localhost:5000/facet"
+                   flex={false}
+                   usePost={true}
+                   addFilter={false}
+                   searchValues={searchValues}/>
+        <SliderFacet
+            registerFacet={registerFacet}
+            unregisterFacet={unregisterFacet}
+            setFacet={setFacet}
+            name="Eindjaar"
+            field="eindjaar"
+            min={1900}
+            max={1940}/>
+        <ListFacet registerFacet={registerFacet}
+                   unregisterFacet={unregisterFacet}
+                   setFacet={setFacet}
+                   name="Status eindjaar"
+                   field="einddatum_soort"
+                   url="http://localhost:5000/facet"
+                   flex={false}
+                   usePost={true}
+                   addFilter={false}
                    searchValues={searchValues}/>
         <ListFacet registerFacet={registerFacet}
                    unregisterFacet={unregisterFacet}
                    setFacet={setFacet}
                    name="Levensbeschouwing"
                    field="levensbeschouwing"
-                   url="http://localhost:5000/filter-facet"
+                   url="http://localhost:5000/facet"
                    flex={false}
-                   usePost={false}
+                   usePost={true}
                    searchValues={searchValues}/>
 
         {/*

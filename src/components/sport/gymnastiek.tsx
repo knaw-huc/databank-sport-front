@@ -1,6 +1,7 @@
 import React from "react";
 import {SportMenu} from "./sportMenu";
-import {HashLink as Link} from 'react-router-hash-link';
+import {Link} from "react-router-dom";
+
 
 export function Gymnastiek() {
 

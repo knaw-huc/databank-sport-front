@@ -16,6 +16,16 @@ export default function Facets({registerFacet, unregisterFacet, setFacet, search
         <ListFacet registerFacet={registerFacet}
                    unregisterFacet={unregisterFacet}
                    setFacet={setFacet}
+                   name="Naam"
+                   field="naam"
+                   url="http://localhost:5000/facet"
+                   flex={false}
+                   usePost={true}
+                   addFilter={true}
+                   searchValues={searchValues}/>
+        <ListFacet registerFacet={registerFacet}
+                   unregisterFacet={unregisterFacet}
+                   setFacet={setFacet}
                    name="Type"
                    field="type"
                    url="http://localhost:5000/facet"
